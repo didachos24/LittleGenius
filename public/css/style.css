@@ -14,3 +14,12 @@
 .align-right {
     align-content: flex-end
 }
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.link-white {
+    color: white;
+}
