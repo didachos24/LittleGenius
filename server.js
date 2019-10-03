@@ -20,6 +20,15 @@ app.get('/', (req, res) => {
     res.render('index')
 });
 
+app.get('/about', (req, res) => {
+    res.render('about')
+});
+
+app.get('/services', (req, res) =>{
+    res.render('/services')
+})
+
+
 // Statics files
 app.use(express.static(path.join(__dirname, 'public')));
 
