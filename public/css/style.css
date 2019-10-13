@@ -3,7 +3,7 @@ body {
 }
 
 .footer {
-    left: 0;
+    /* left: 0; */
     bottom: 0;
     width: 100%;
     color: white;
@@ -12,6 +12,10 @@ body {
 .logo-nav {
     width : 40px;
     height: 40px;
+}
+
+.navbar-bottom {
+    border-bottom: 2px solid rgb(242,184,211)
 }
 
 .text-navbar {
@@ -53,21 +57,13 @@ body {
 }
 
 .content {
-    margin-left: 3em;
+    /* margin-left: 3em; */
     font-family: 'Luckiest Guy', cursive;
     font-size: 2.5rem;
     color: rgb(105,161,207)
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: justify
-}
-
-.mancha {
-    background-image: url('../images/humo.png');
-    background-size:45%;
-    background-repeat: no-repeat;
-    background-position-x: 90%;
-    background-position-y: 5%
 }
