@@ -3,10 +3,11 @@ body {
 }
 
 .footer {
-    /* left: 0; */
-    bottom: 0;
     width: 100%;
-    color: white;
+    bottom: 0;
+    color: whitesmoke;
+    background-color: rgb(58, 56, 117);
+    border-top: 5px solid rgb(242,184,211)
 }
 
 .logo-nav {
@@ -14,12 +15,17 @@ body {
     height: 40px;
 }
 
-.navbar-bottom {
-    border-bottom: 2px solid rgb(242,184,211)
+.navbar-borders {
+    border-bottom: 5px solid rgb(242,184,211);
 }
 
 .text-navbar {
     font-family: 'Permanent Marker', cursive;
+    color: rgb(58, 56, 117);
+}
+
+.fixed {
+    position: fixed
 }
 
 .align-right {
@@ -30,7 +36,6 @@ body {
 
 .center {
     margin: auto;
-    width: 40%;
 }
 
 .justify {
@@ -39,15 +44,17 @@ body {
 }
 
 .link-white {
-    color: white;
+    color: whitesmoke;
 }
 
 .car-img {
     width: 100%;
     height: 100%;
-    border-radius: 7%;
+    border-radius: 3%;
     -webkit-filter: grayscale(70%);
     filter: grayscale(70%);
+    padding: 5%;
+    /* margin: 5% */
 }
 
 .rot {
@@ -64,6 +71,44 @@ body {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: justify
+}
+
+.nav-title {
+    font-size: 1.5rem
+}
+
+/* ==== MEDIA QUERIES ====*/
+
+@media screen and (max-width: 600px) {
+
+    p {
+        font-size: 1rem;
+        text-align: justify
+    }
+
+    .content {
+        font-size: 1.5rem
+    }
+
+    h5, .nav-title {
+        font-size: 0.8rem
+    }
+
+    h4 {
+        font-size: 1.2rem
+    }
+
+    .footer {
+        width: 105%;
+        color: whitesmoke;
+        background-color: rgb(58, 56, 117);
+        border-top: 5px solid rgb(242,184,211)
+    }
+    
+    .hour {
+        font-size: 0.6rem
+    }
+
 }
