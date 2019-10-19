@@ -1,18 +1,23 @@
+/* ===================================BODY */
 body {
     background-color: rgb(242,240,233)
 }
 
+/* =================================FOOTER */
 .footer {
-    width: 100%;
-    bottom: 0;
+    /* width: 100%; */
+    left: 0px;
+    bottom: 0px;
+    position: relative;
     color: whitesmoke;
     background-color: rgb(58, 56, 117);
-    border-top: 5px solid rgb(242,184,211)
+    border-top: 5px solid rgb(242,184,211);
 }
 
+/* ================================= NAVBAR */
 .logo-nav {
-    width : 40px;
-    height: 40px;
+    width : 60px;
+    height: 60px;
 }
 
 .navbar-borders {
@@ -20,14 +25,20 @@ body {
 }
 
 .text-navbar {
-    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Luckiest Guy', cursive;
     color: rgb(58, 56, 117);
 }
 
-.fixed {
-    position: fixed
+.sticky {
+    position: sticky
 }
 
+.nav-title {
+    font-size: 1.5rem
+}
+
+/*=================================== TEXT */
 .align-right {
     align-content: flex-end;
     text-align: right;
@@ -36,6 +47,7 @@ body {
 
 .center {
     margin: auto;
+    text-align: center;
 }
 
 .justify {
@@ -47,22 +59,6 @@ body {
     color: whitesmoke;
 }
 
-.car-img {
-    width: 100%;
-    height: 100%;
-    border-radius: 3%;
-    -webkit-filter: grayscale(70%);
-    filter: grayscale(70%);
-    padding: 5%;
-    /* margin: 5% */
-}
-
-.rot {
-    transform: rotate(10deg);
-    z-index: -1;
-    opacity: 0.8;
-}
-
 .content {
     /* margin-left: 3em; */
     font-family: 'Luckiest Guy', cursive;
@@ -71,17 +67,43 @@ body {
 }
 
 p {
-    font-size: 1.5rem;
-    text-align: justify
+    font-size: 1.3rem;
+    text-align: justify;
+    font-family: cursive;
+    color: grey
 }
 
-.nav-title {
-    font-size: 1.5rem
+
+/*=============================== CAROUSEL */
+
+.carousel {
+    float: right;
+    width: 420px;
+    height: 320px;
 }
+
+.car-img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    /* -webkit-filter: grayscale(70%);
+    filter: grayscale(70%); */
+    padding: 10px white;
+}
+
+.rotated {
+    transform: rotate(10deg);
+    z-index: -1;
+    padding: 10px;
+    background-color: white;
+    /* opacity: 0.8; */
+
+}
+
 
 /* ==== MEDIA QUERIES ====*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
 
     p {
         font-size: 1rem;
@@ -101,7 +123,7 @@ p {
     }
 
     .footer {
-        width: 105%;
+        width: 104%;
         color: whitesmoke;
         background-color: rgb(58, 56, 117);
         border-top: 5px solid rgb(242,184,211)
@@ -110,5 +132,20 @@ p {
     .hour {
         font-size: 0.6rem
     }
+
+    /* .carousel {
+        width: 140px;
+        height: 320px;
+    }
+    
+    .car-img {
+        width: 400px;
+        height: 300px;
+        border-radius: 5%; */
+        /* -webkit-filter: grayscale(70%);
+        filter: grayscale(70%); */
+        /* padding: 10px white;
+    } */
+    
 
 }
