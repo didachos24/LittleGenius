@@ -123,10 +123,6 @@ p {
 
 @media screen and (max-width: 770px) {
 
-    .row {
-        display: inline-block;
-    }
-
     p {
         font-size: 0.85rem;
         text-align: justify
