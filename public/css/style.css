@@ -11,7 +11,7 @@ body {
     position: relative;
     color: whitesmoke;
     background-color: rgb(58, 56, 117);
-    border-top: 5px solid rgb(242,184,211);
+    border-top: 5px solid rgb(125, 163, 245);
 }
 
 /* ================================= NAVBAR */
@@ -22,6 +22,7 @@ body {
 
 .navbar-borders {
     border-bottom: 5px solid rgb(242,184,211);
+    background-color: rgb(247, 228, 238);
 }
 
 .text-navbar {
@@ -50,6 +51,10 @@ body {
     text-align: center;
 }
 
+.test {
+    text-align: center;
+}
+
 .justify {
     margin: auto;
     width:60%;
@@ -73,6 +78,9 @@ p {
     color: grey
 }
 
+.inline-block {
+    display: inline-block;
+}
 
 /*=============================== CAROUSEL */
 
@@ -100,18 +108,32 @@ p {
 
 }
 
+/*======================= COLORED BACKGROUND */
+
+.white-bg {
+    background-color: rgb(250, 250, 250, 0.7);
+    padding: 2%;
+    border-radius: 5%;
+}
+
+.pink-bg {
+    background-color: rgb(247, 228, 238);
+    padding: 2%;
+    border-radius: 5%;
+}
+
 
 /* ==== MEDIA QUERIES ====*/
 
 @media screen and (max-width: 770px) {
 
     p {
-        font-size: 1rem;
+        font-size: 0.85rem;
         text-align: justify
     }
 
     .content {
-        font-size: 1.5rem
+        font-size: 1.1rem
     }
 
     h5, .nav-title {
@@ -123,7 +145,7 @@ p {
     }
 
     .footer {
-        width: 104%;
+        /* width: 104%; */
         color: whitesmoke;
         background-color: rgb(58, 56, 117);
         border-top: 5px solid rgb(242,184,211)
@@ -133,19 +155,22 @@ p {
         font-size: 0.6rem
     }
 
-    /* .carousel {
-        width: 140px;
-        height: 320px;
+    .carousel {
+        float: none;
+        align-content: center;
+        margin: auto;
+        width: 270px;
+        height: 170px;
     }
     
     .car-img {
-        width: 400px;
-        height: 300px;
-        border-radius: 5%; */
+        width: 250px;
+        height: 150px;
+        border-radius: 5%;
         /* -webkit-filter: grayscale(70%);
         filter: grayscale(70%); */
-        /* padding: 10px white;
-    } */
+        padding: 10px white;
+    }
     
 
 }
