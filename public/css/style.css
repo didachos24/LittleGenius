@@ -74,12 +74,8 @@ body {
 p {
     font-size: 1.3rem;
     text-align: justify;
-    font-family: cursive;
+    /* font-family: cursive; */
     color: grey
-}
-
-.inline-block {
-    display: inline-block;
 }
 
 /*=============================== CAROUSEL */
@@ -127,6 +123,10 @@ p {
 
 @media screen and (max-width: 770px) {
 
+    .row {
+        display: inline-block;
+    }
+
     p {
         font-size: 0.85rem;
         text-align: justify
@@ -148,7 +148,7 @@ p {
         /* width: 104%; */
         color: whitesmoke;
         background-color: rgb(58, 56, 117);
-        border-top: 5px solid rgb(242,184,211)
+        border-top: 5px solid rgb(125, 163, 245)
     }
     
     .hour {
@@ -172,5 +172,8 @@ p {
         padding: 10px white;
     }
     
+    .sm-inlineblock {
+        display: inline-block
+    }
 
 }
