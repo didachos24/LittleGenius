@@ -51,10 +51,6 @@ body {
     text-align: center;
 }
 
-.test {
-    text-align: center;
-}
-
 .justify {
     margin: auto;
     width:60%;
@@ -68,20 +64,30 @@ body {
     /* margin-left: 3em; */
     font-family: 'Luckiest Guy', cursive;
     font-size: 2.5rem;
-    color: rgb(105,161,207)
+    color: rgb(105,161,207);
 }
 
 p {
     font-size: 1.3rem;
-    text-align: justify;
+    /* text-align: justify; */
     /* font-family: cursive; */
     color: grey
+}
+
+li {
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 /*=============================== CAROUSEL */
 
 .carousel {
-    float: right;
+    /* float: right; */
+    align-items: center;
     width: 420px;
     height: 320px;
 }
@@ -107,17 +113,12 @@ p {
 /*======================= COLORED BACKGROUND */
 
 .white-bg {
-    background-color: rgb(250, 250, 250, 0.7);
+    background-color: rgb(250, 250, 250, 0.8);
     padding: 2%;
-    border-radius: 5%;
+    border-radius: 3%;
+    text-align: center;
+    /* border: 2px solid rgb(125, 163, 245); */
 }
-
-.pink-bg {
-    background-color: rgb(247, 228, 238);
-    padding: 2%;
-    border-radius: 5%;
-}
-
 
 /* ==== MEDIA QUERIES ====*/
 
@@ -125,11 +126,16 @@ p {
 
     p {
         font-size: 0.85rem;
-        text-align: justify
+        /* text-align: justify */
+    }
+
+    li {
+        font-size: 0.85rem;
     }
 
     .content {
-        font-size: 1.1rem
+        font-size: 1.1rem;
+        text-align: center;
     }
 
     h5, .nav-title {
