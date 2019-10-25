@@ -14,6 +14,11 @@ body {
     border-top: 5px solid rgb(125, 163, 245);
 }
 
+.foot-image {
+    width: 140px;
+    height: 80px;
+}
+
 /* ================================= NAVBAR */
 .logo-nav {
     width : 60px;

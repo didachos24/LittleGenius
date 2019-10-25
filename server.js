@@ -17,15 +17,15 @@ app.use(morgan('dev'));
 
 // Routes
 app.get('/', (req, res) => {
-    res.render('index')
+    res.render('ENG/index')
 });
 
 app.get('/about', (req, res) => {
-    res.render('about')
+    res.render('ENG/about')
 });
 
 app.get('/services', (req, res) =>{
-    res.render('services')
+    res.render('ENG/services')
 })
 
 
