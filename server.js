@@ -26,7 +26,11 @@ app.get('/about', (req, res) => {
 
 app.get('/services', (req, res) =>{
     res.render('ENG/services')
-})
+});
+
+app.get('/espanol', (req,res) => {
+    res.render('SPA/index')
+});
 
 
 // Statics files
