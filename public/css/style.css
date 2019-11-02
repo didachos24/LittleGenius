@@ -1,6 +1,6 @@
 /* ===================================BODY */
 body {
-    background-color: rgb(242,235,235)
+    /* background-color: rgb(242,235,235) */
 }
 
 /* =================================FOOTER */
@@ -118,11 +118,18 @@ li {
 /*======================= COLORED BACKGROUND */
 
 .white-bg {
-    background-color: rgb(250, 250, 250, 0.8);
+    /* background-color: rgb(250, 250, 250, 0.8); */
+    background-color: rgb(247, 228, 238);
     padding: 2%;
     border-radius: 3%;
     text-align: center;
     /* border: 2px solid rgb(125, 163, 245); */
+}
+
+/*================================= COLORS */
+
+.red {
+    color: red
 }
 
 /* ==== MEDIA QUERIES ====*/
