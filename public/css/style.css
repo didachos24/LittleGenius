@@ -1,7 +1,7 @@
 /* ===================================BODY */
-body {
-    /* background-color: rgb(242,235,235) */
-}
+/* body {
+    background-color: rgb(242,235,235)
+} */
 
 /* =================================FOOTER */
 .footer {
@@ -10,7 +10,9 @@ body {
     bottom: 0px;
     position: relative;
     color: whitesmoke;
+    /* background-color: rgb(105,161,207); */
     background-color: rgb(58, 56, 117);
+    /* border-top: 5px solid rgb(42, 75, 145); */
     border-top: 5px solid rgb(125, 163, 245);
 }
 
