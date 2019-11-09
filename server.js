@@ -28,7 +28,7 @@ app.get('/services', (req, res) =>{
     res.render('ENG/services')
 });
 
-app.get('/espanol', (req,res) => {
+app.get('/inicio', (req,res) => {
     res.render('SPA/index')
 });
 

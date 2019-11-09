@@ -74,11 +74,23 @@
     color: rgb(105,161,207);
 }
 
+.subtitle {
+    /* margin-left: 3em; */
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.8rem;
+    color: rgb(105,161,207);
+
 p {
     font-size: 1.3rem;
     /* text-align: justify; */
     /* font-family: cursive; */
     color: grey
+}
+
+.sign {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    color: rgb(58, 56, 117);
+    font-size: 2rem;
 }
 
 li {
@@ -119,19 +131,34 @@ li {
 
 /*======================= COLORED BACKGROUND */
 
-.white-bg {
+.rose-bg {
     /* background-color: rgb(250, 250, 250, 0.8); */
     background-color: rgb(247, 228, 238);
     padding: 2%;
     border-radius: 3%;
     text-align: center;
     /* border: 2px solid rgb(125, 163, 245); */
+    /* background-image: url('../images/white-bear.png'); */
 }
 
 /*================================= COLORS */
 
 .red {
     color: red
+}
+
+/*================================= IMAGES */
+
+.bear {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    /* float: right; */
+    opacity: 0.7;
+}
+
+.services-img {
+    height: 10%;
 }
 
 /* ==== MEDIA QUERIES ====*/
