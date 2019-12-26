@@ -1,11 +1,10 @@
 /* ===================================BODY */
-/* body {
-    background-color: rgb(242,235,235)
-} */
+body {
+    /* background-color: rgb(242,235,235) */
+}
 
 /* =================================FOOTER */
 .footer {
-    /* width: 100%; */
     left: 0px;
     bottom: 0px;
     position: relative;
