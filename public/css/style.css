@@ -1,6 +1,5 @@
 /* ===================================BODY */
 body {
-    /* background-color: rgb(242,235,235) */
 }
 
 /* =================================FOOTER */
@@ -9,9 +8,7 @@ body {
     bottom: 0px;
     position: relative;
     color: whitesmoke;
-    /* background-color: rgb(105,161,207); */
     background-color: rgb(58, 56, 117);
-    /* border-top: 5px solid rgb(42, 75, 145); */
     border-top: 5px solid rgb(125, 163, 245);
 }
 
@@ -32,7 +29,6 @@ body {
 }
 
 .text-navbar {
-    /* font-family: 'Permanent Marker', cursive; */
     font-family: 'Luckiest Guy', cursive;
     color: rgb(58, 56, 117);
 }
@@ -67,14 +63,12 @@ body {
 }
 
 .content {
-    /* margin-left: 3em; */
     font-family: 'Luckiest Guy', cursive;
     font-size: 2.5rem;
     color: rgb(105,161,207);
 }
 
 .subtitle {
-    /* margin-left: 3em; */
     font-family: 'Luckiest Guy', cursive;
     font-size: 1.8rem;
     color: rgb(105,161,207);
@@ -82,8 +76,6 @@ body {
 
 p {
     font-size: 1.3rem;
-    /* text-align: justify; */
-    /* font-family: cursive; */
     color: grey
 }
 
@@ -105,7 +97,6 @@ li {
 /*=============================== CAROUSEL */
 
 .carousel {
-    /* float: right; */
     align-items: center;
     width: 420px;
     height: 320px;
@@ -132,14 +123,18 @@ li {
 /*======================= COLORED BACKGROUND */
 
 .rose-bg {
-    /* background-color: rgb(250, 250, 250, 0.8); */
     background-color: rgb(247, 228, 238);
     padding: 2%;
     border-radius: 3%;
     text-align: center;
-    /* border: 2px solid rgb(125, 163, 245); */
-    /* background-image: url('../images/white-bear.png'); */
 }
+
+.paragraph-bg {
+    padding: 2%;
+    border-radius: 3%;
+    text-align: center;
+}
+
 
 /*================================= COLORS */
 
@@ -147,18 +142,24 @@ li {
     color: red
 }
 
-/*================================= IMAGES */
-
-.bear {
-    width: 300px;
-    height: 400px;
-    position: relative;
-    /* float: right; */
-    opacity: 0.7;
+.rose {
+    color: rgb(242,184,211);
 }
+
+/*================================= IMAGES */
 
 .services-img {
     height: 10%;
+}
+
+.about-img {
+    height: 50%;
+    width: 50%;
+}
+
+.long {
+    width: 100%;
+    /* height: 10px; */
 }
 
 /* ==== MEDIA QUERIES ====*/
@@ -218,5 +219,11 @@ li {
     .sm-inlineblock {
         display: inline-block
     }
+
+    .about-img {
+        height: 85%;
+        width: 85%;
+    }
+    
 
 }

@@ -6,13 +6,15 @@ var path = require("path");
 var app = express();
 
 // Settings
+
 // Initial port
 var PORT = process.env.PORT || 3000;
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // Middlewares
-// Morgan as logger
+
+// Morgan (logger)
 app.use(morgan('dev'));
 
 // Routes
@@ -28,7 +30,7 @@ app.get('/services', (req, res) =>{
     res.render('ENG/services')
 });
 
-app.get('/inicio', (req,res) => {
+app.get('/espanol', (req,res) => {
     res.render('SPA/index')
 });
 
