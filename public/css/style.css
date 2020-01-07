@@ -94,6 +94,14 @@ li {
     display: inline-block;
 }
 
+.boom {
+    animation-name: big;
+    animation-duration: 3s;
+    /* Safari */
+    -webkit-animation-name: big;
+    -webkit-animation-duration: 3s;
+}
+
 /*=============================== CAROUSEL */
 
 .carousel {
@@ -157,9 +165,11 @@ li {
     width: 50%;
 }
 
-.long {
-    width: 100%;
-    /* height: 10px; */
+/* ==== ANIMATIONS ==== */
+
+@keyframes big {
+    from {font-size: 0.5rem;}
+    to {font-size: 1.3rem}
 }
 
 /* ==== MEDIA QUERIES ====*/
