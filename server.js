@@ -34,6 +34,14 @@ app.get('/espanol', (req,res) => {
     res.render('SPA/index')
 });
 
+app.get('/nosotros', (req, res) => {
+    res.render('SPA/about')
+})
+
+app.get('/servicios', (req, res) => {
+    res.render('SPA/services')
+})
+
 
 // Statics files
 app.use(express.static(path.join(__dirname, 'public')));
