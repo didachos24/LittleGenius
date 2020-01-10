@@ -110,6 +110,9 @@ li {
     align-items: center;
     width: 420px;
     height: 320px;
+    animation-name: rotated;
+    animation-duration: 5s;
+
 }
 
 .car-img {
@@ -127,7 +130,6 @@ li {
     padding: 10px;
     background-color: white;
     /* opacity: 0.8; */
-
 }
 
 /*======================= COLORED BACKGROUND */
@@ -191,6 +193,11 @@ li {
 @keyframes content {
     from {color: rgb(242,184,211)}
     to {color: rgb(105,161,207)}
+}
+
+@keyframes rotated {
+    from {top: 0%}
+    to {top: 90%}
 }
 
 /* Safari */
