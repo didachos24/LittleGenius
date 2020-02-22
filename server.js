@@ -18,6 +18,7 @@ app.set('view engine', 'ejs');
 app.use(morgan('dev'));
 
 // Routes
+// English section
 app.get('/', (req, res) => {
     res.render('ENG/index')
 });
@@ -30,6 +31,11 @@ app.get('/services', (req, res) =>{
     res.render('ENG/services')
 });
 
+app.get('/school', (req, res) =>{
+    res.render('ENG/school')
+})
+
+// Spanish section
 app.get('/espanol', (req,res) => {
     res.render('SPA/index')
 });
@@ -40,6 +46,10 @@ app.get('/nosotros', (req, res) => {
 
 app.get('/servicios', (req, res) => {
     res.render('SPA/services')
+})
+
+app.get('/escuela', (req, res) => {
+    res.render('SPA/escuela')
 })
 
 

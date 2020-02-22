@@ -178,6 +178,12 @@ li {
     -webkit-animation-duration: 5s;
 }
 
+/*================================= VIDEOS */
+
+.frame {
+    border: 10px red dotted
+}
+
 /* ==== ANIMATIONS ==== */
 
 @keyframes big {
